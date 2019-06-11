@@ -3,7 +3,6 @@
 ## Directory structure
 
 * code/ - _contains R Notebook(s) and the resulting HTML file(s)_
-  * template_files/
   * template.Rmd
   * template.html
   * template.nb.html
