@@ -1,0 +1,61 @@
+---
+title: '[PROJECT NAME]'
+author: "Emma Bell"
+date: '[DATE]'
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+  html_notebook:
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+subtitle: '[AIM]'
+---
+
+# Summary 
+
+This R Notebook contains code pertaining to the project [PROJECT NAME].
+
+* Aim:
+* Objectives:
+
+# Set up
+
+The parent directory for this project is `/path/to/base/dir`.
+
+```{r}
+base.dir <- file.path("/path/to/base/dir")
+data.dir <- file.path(base.dir,"data")
+docs.dir <- file.path(base.dir,"docs")
+results.dir <- file.path(base.dir,"results")
+```
+
+All figures are outputted to the following specifications:
+
+```{r}
+units <- "cm"
+res <- 480
+pointsize <- 7
+```
+
+This R Notebook requires the following packages:
+
+```{r}
+library(viridis)
+```
+
+The colour scheme used in this R Notebook is as follows:
+
+```{r}
+pal <- inferno(n = 10, begin = 0.2, end = 0.8)
+barplot(1:10, col = pal, border = NA)
+```
+
+# Analysis {.tabset}
+
+## Analysis 1
+
+## Analysis 2
+
+## Analysis 3
