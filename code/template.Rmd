@@ -13,7 +13,7 @@ output:
 subtitle: '[AIM]'
 ---
 
-# Summary 
+# Summary {.tabset}
 
 This R Notebook contains code pertaining to the project [PROJECT NAME].
 
